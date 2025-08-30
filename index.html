@@ -1,136 +1,84 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Curiosidades sobre DevOps</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
-      background-size: cover;
-      color: #e0e0e0;
-      line-height: 1.6;
-    }
-
-    .overlay {
-      background: rgba(20, 29, 30, 0.85);
-      min-height: 100vh;
-    }
-
-    .site-header {
-      background: rgba(0, 83, 83, 0.8);
-      color: #f5f5f5;
-      text-align: center;
-      padding: 2rem 1rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .site-header h1 {
-      margin: 0;
-      font-size: 2.8rem;
-    }
-
-    .site-header .subtitle {
-      font-size: 1.2rem;
-      margin-top: .5rem;
-      opacity: 0.85;
-    }
-
-    main {
-      max-width: 850px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-
-    .card {
-      background: rgba(30, 41, 45, 0.85);
-      border-radius: 14px;
-      padding: 1.8rem;
-      box-shadow: 0 6px 14px rgba(0,0,0,0.6);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 10px 24px rgba(0,0,0,0.8);
-    }
-
-    h2 {
-      margin-top: 0;
-      color: #86fcfc;
-    }
-
-    ul, ol {
-      padding-left: 1.2rem;
-    }
-
-    .site-footer {
-      background: rgba(15, 25, 24, 0.9);
-      color: #aef7fc;
-      text-align: center;
-      padding: 1.5rem;
-      margin-top: 2rem;
-    }
-
-    .site-footer code {
-      background: #174646;
-      padding: 0.2rem 0.4rem;
-      border-radius: 4px;
-      color: #e0e0e0;
-    }
-
-    @media (max-width: 600px) {
-      .site-header h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
 </head>
+
 <body>
   <div class="overlay">
     <header class="site-header">
       <h1>Curiosidades sobre DevOps</h1>
-      <p class="subtitle">Explicado de forma simples</p>
+      <p class="subtitle">
+        Explicado de forma simples
+      </p>
     </header>
 
     <main>
       <section id="o-que-e" class="card">
         <h2>O que é DevOps?</h2>
-        <p>DevOps é uma forma de trabalhar que junta <strong>desenvolvimento</strong> (Dev) e <strong>operações</strong> (Ops).
-        Em vez de times separados, a ideia é colaborar para entregar software mais rápido e com menos problemas.</p>
+        <p>
+          DevOps é uma forma de trabalhar que junta
+          <strong>desenvolvimento</strong> (Dev) e <strong>operações</strong>
+          (Ops). Em vez de times separados, a ideia é colaborar para entregar
+          software mais rápido e com menos problemas.
+        </p>
       </section>
 
       <section id="como-faz" class="card">
         <h2>Como funciona (de maneira simples)</h2>
         <ol>
-          <li><strong>Automatizar:</strong> testes, build e deploy para reduzir trabalho manual.</li>
-          <li><strong>Integrar:</strong> desenvolvedores enviam código frequentemente para um repositório central.</li>
-          <li><strong>Entregar:</strong> processos automáticos levam o código até produção (ou quase lá).</li>
-          <li><strong>Monitorar:</strong> observar o sistema em produção para detectar e corrigir problemas rápido.</li>
+          <li>
+            <strong>Automatizar:</strong> testes, build e deploy para reduzir
+            trabalho manual.
+          </li>
+          <li>
+            <strong>Integrar:</strong> desenvolvedores enviam código
+            frequentemente para um repositório central.
+          </li>
+          <li>
+            <strong>Entregar:</strong> processos automáticos levam o código até
+            produção (ou quase lá).
+          </li>
+          <li>
+            <strong>Monitorar:</strong> observar o sistema em produção para
+            detectar e corrigir problemas rápido.
+          </li>
         </ol>
       </section>
 
       <section id="curiosidades" class="card">
         <h2>Curiosidades rápidas</h2>
         <ul>
-          <li>DevOps não é só ferramentas — é também cultura e processos.</li>
-          <li>Empresas que adotam DevOps costumam fazer deploys várias vezes ao dia.</li>
-          <li>CI significa <em>Continuous Integration</em> (Integração Contínua) e CD pode ser <em>Continuous Delivery</em> ou <em>Continuous Deployment</em>.</li>
+          <li>
+            DevOps não é só ferramentas — é também cultura e processos.
+          </li>
+          <li>
+            Empresas que adotam DevOps costumam fazer deploys várias vezes ao
+            dia.
+          </li>
+          <li>
+            CI significa <em>Continuous Integration</em> (Integração Contínua)
+            e CD pode ser <em>Continuous Delivery</em> ou
+            <em>Continuous Deployment</em>.
+          </li>
         </ul>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Feito para aprender — sinta-se à vontade para personalizar o conteúdo e o estilo.</p>
-      <p>Arquivo: <code>devops-curiosidades.html</code></p>
+      <p>
+        Feito para aprender — sinta-se à vontade para personalizar o conteúdo e
+        o estilo.
+      </p>
+      <p>
+        Arquivo: <code>devops-curiosidades.html</code>
+      </p>
     </footer>
   </div>
 </body>
+
 </html>
